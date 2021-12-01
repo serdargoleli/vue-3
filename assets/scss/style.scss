@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap");
+
+@import "veriables/veriable";
+@import "base/reset";
+
+.container {
+  padding-top: 25px;
+  width: 350px;
+  margin: auto;
+}
+
+.input {
+  background: $body-color;
+  padding: 0.375rem 0.75rem;
+  border: solid 1px $border-color;
+  border-radius: $radius;
+  &:focus,
+  &:active {
+    border: solid 1px $border-focus-color;
+    background: #f1f1f1;
+  }
+}
+.button {
+  padding: 0.375rem 0.75rem;
+  border: none;
+  cursor: pointer;
+  border-radius: $radius;
+  background: $default-color;
+  color: $white-color;
+  &:hover {
+    background: $default-hover-color;
+  }
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.mx-10 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ 
