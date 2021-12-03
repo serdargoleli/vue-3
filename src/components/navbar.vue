@@ -4,7 +4,12 @@
       <a class="navbar-brand" href="#">VUE 3 Yenilikler</a>
       <ul class="navbar-nav ms-auto flex-row">
         <li class="nav-item">
-          <a class="nav-link p-2" href="https://github.com/serdargoleli">
+          <a class="nav-link p-2" href="https://www.buymeacoffee.com/serdargoleli" target="_blank">
+            <i class="bi bi-cup-straw"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2" href="https://github.com/serdargoleli" target="_blank">
             <i class="bi bi-github"></i>
           </a>
         </li>

@@ -4,9 +4,6 @@ import CompositionApi from "../views/detail/composition-api.vue";
 import SetupRefReactive from "../views/detail/setup-ref-reactive.vue";
 import LifeCycleHhooks from "../views/detail/lifecycle-hooks.vue";
 
-
-import Example from "../views/example.vue";
-
 const routes = [
   {
     path: "/",
@@ -29,11 +26,6 @@ const routes = [
     component: LifeCycleHhooks,
   },
 
-  {
-    path: "/example",
-    name: "Example",
-    component: Example,
-  },
   //  {
   // path: "/about",
   // name: "About",
