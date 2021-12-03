@@ -1,18 +1,37 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4" v-for="(content, index) in contents" :key="index">
+      <router-link :to="content.to">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">{{ content.name }}</h5>
+          </div>
+        </div>
+      </router-link>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+  export default {
+    name: "Index",
+    // constructor: ilk render işleminde yüklenen değerler
+    setup() {
+      const contents = [{ name: "Composition Api", to: "/detail/composition-api" }];
 
-export default {
-  name: "Home",
-  components: {
-    HelloWorld,
-  },
-};
+      return {
+        contents,
+      };
+    },
+  };
 </script>
+<style lang="css" scope>
+  a {
+    text-decoration: none;
+  }
+</style>
