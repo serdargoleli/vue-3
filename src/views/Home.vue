@@ -25,6 +25,7 @@
       const contents = [
         { title: "Composition Api", to: "/detail/composition-api" },
         { title: "Setup, Ref, Reactive", to: "/detail/setup-ref-reactive" },
+        { title: "LifeCycle Hooks", to: "/detail/lifecycle-hooks" },
       ];
 
       return {

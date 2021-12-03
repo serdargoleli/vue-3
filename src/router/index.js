@@ -2,15 +2,12 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import CompositionApi from "../views/detail/composition-api.vue";
 import SetupRefReactive from "../views/detail/setup-ref-reactive.vue";
-/* ****************** SİL ****************** */
-import example from "../views/example.vue";
+import LifeCycleHhooks from "../views/detail/lifecycle-hooks.vue";
+
+
+import Example from "../views/example.vue";
 
 const routes = [
-  {
-    path: "/example",
-    name: "example",
-    component: example,
-  },
   {
     path: "/",
     name: "Home",
@@ -25,6 +22,17 @@ const routes = [
     path: "/detail/setup-ref-reactive",
     name: "setup-ref-reactive",
     component: SetupRefReactive,
+  },
+  {
+    path: "/detail/lifecycle-hooks",
+    name: "lifecycle-hooks",
+    component: LifeCycleHhooks,
+  },
+
+  {
+    path: "/example",
+    name: "Example",
+    component: Example,
   },
   //  {
   // path: "/about",
