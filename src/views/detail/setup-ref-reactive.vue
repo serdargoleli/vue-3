@@ -177,7 +177,8 @@
 
     setup() {
       const sources = [
-        "https://v3.vuejs.org/guide/composition-api-template-refs.html#template-refs",
+        "https://v3.vuejs.org/guide/reactivity-fundamentals.html#reactivity-fundamentals",
+        "https://v3.vuejs.org/guide/composition-api-setup.html#arguments",
         "https://www.youtube.com/watch?v=V-kxBWcPJfo&list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1&index=11",
         "https://www.danvega.dev/blog/2020/02/12/vue3-ref-vs-reactive/",
       ];
