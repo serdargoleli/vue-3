@@ -1,8 +1,16 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import CompositionApi from "../views/detail/composition-api.vue";
+import SetupRefReactive from "../views/detail/setup-ref-reactive.vue";
+/* ****************** SİL ****************** */
+import example from "../views/example.vue";
 
 const routes = [
+  {
+    path: "/example",
+    name: "example",
+    component: example,
+  },
   {
     path: "/",
     name: "Home",
@@ -12,6 +20,11 @@ const routes = [
     path: "/detail/composition-api",
     name: "Composition Api",
     component: CompositionApi,
+  },
+  {
+    path: "/detail/setup-ref-reactive",
+    name: "setup-ref-reactive",
+    component: SetupRefReactive,
   },
   //  {
   // path: "/about",

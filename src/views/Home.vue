@@ -6,10 +6,10 @@
           <img
             src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             class="card-img-top"
-            alt="..."
+            :alt="content.title"
           />
           <div class="card-body">
-            <h5 class="card-title">{{ content.name }}</h5>
+            <h5 class="card-title">{{ content.title }}</h5>
           </div>
         </div>
       </router-link>
@@ -22,7 +22,10 @@
     name: "Index",
     // constructor: ilk render işleminde yüklenen değerler
     setup() {
-      const contents = [{ name: "Composition Api", to: "/detail/composition-api" }];
+      const contents = [
+        { title: "Composition Api", to: "/detail/composition-api" },
+        { title: "Setup, Ref, Reactive", to: "/detail/setup-ref-reactive" },
+      ];
 
       return {
         contents,

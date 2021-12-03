@@ -39,6 +39,7 @@
         </div>
       </div>
     </div>
+
     <div class="row my-3">
       <div class="col-12 col-md-6">
         <figure class="figure">
@@ -53,37 +54,23 @@
         </figure>
       </div>
     </div>
-    <div class="row mb-3">
-      <div class="col-12">
-        <h3 class="mb-1">Kaynaklar</h3>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <a href="https://v3.vuejs.org/guide/composition-api-introduction.html#setup-component-option" target="_blank" ref="noopener noreferrer">
-              v3.vuejs.org/guide/composition-api-introduction.html#setup-component-option
-            </a>
-          </li>
-          <li class="list-group-item">
-            <a
-              href="https://www.youtube.com/watch?v=V-kxBWcPJfo&list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1&index=11"
-              target="_blank"
-              ref="noopener noreferrer"
-            >
-              youtube.com/watch?v=V-kxBWcPJfo&list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1&index=11
-            </a>
-          </li>
-          <li class="list-group-item">
-            <a href="https://markus.oberlehner.net/blog/vue-3-composition-api-vs-options-api/" target="_blank" ref="noopener noreferrer">
-              markus.oberlehner.net/blog/vue-3-composition-api-vs-options-api</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
+
+    <sources :sources="sources" />
   </div>
 </template>
 
 <script>
   export default {
     name: "CompositionApi",
+    setup() {
+      const sources = [
+        "https://v3.vuejs.org/guide/composition-api-introduction.html#setup-component-option",
+        "https://www.vuemastery.com/courses/vue-3-essentials/why-the-composition-api",
+        "https://www.youtube.com/watch?v=V-kxBWcPJfo&list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1&index=11",
+        "https://markus.oberlehner.net/blog/vue-3-composition-api-vs-options-api/",
+      ];
+
+      return { sources };
+    },
   };
 </script>
