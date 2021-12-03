@@ -131,7 +131,11 @@
       <!-- REACTIVE DEĞER DEĞİŞTİRME  -->
       <div class="col-12 col-md-6">
         <figure class="figure">
-          <img src="@/assets/img/setup-ref-reactive/reactive-deger-degistirme.png" class="figure-img img-fluid rounded" alt="Reactive Değer Değiştirme" />
+          <img
+            src="@/assets/img/setup-ref-reactive/reactive-deger-degistirme.png"
+            class="figure-img img-fluid rounded"
+            alt="Reactive Değer Değiştirme"
+          />
           <figcaption class="figure-caption text-center">Reactive Değer Değiştirme</figcaption>
         </figure>
       </div>
