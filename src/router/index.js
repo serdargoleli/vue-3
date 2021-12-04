@@ -3,7 +3,9 @@ import Home from "../views/Home.vue";
 import CompositionApi from "../views/detail/composition-api.vue";
 import SetupRefReactive from "../views/detail/setup-ref-reactive.vue";
 import LifeCycleHhooks from "../views/detail/lifecycle-hooks.vue";
+import Teleport from "../views/detail/teleport.vue";
 
+import Post from "../views/post.vue";
 const routes = [
   {
     path: "/",
@@ -24,6 +26,16 @@ const routes = [
     path: "/detail/lifecycle-hooks",
     name: "lifecycle-hooks",
     component: LifeCycleHhooks,
+  },
+  {
+    path: "/detail/teleport",
+    name: "teleport",
+    component: Teleport,
+  },
+  {
+    path: "/post",
+    name: "post",
+    component: Post,
   },
 
   //  {

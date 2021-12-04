@@ -1,8 +1,8 @@
 <template>
   <div class="row">
-    <div class="col-12 col-md-6 col-lg-4" v-for="(content, index) in contents" :key="index">
+    <div class="col-12 col-md-6 col-lg-3" v-for="(content, index) in contents" :key="index">
       <router-link :to="content.to">
-        <div class="card" style="width: 18rem">
+        <div class="card">
           <img
             src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             class="card-img-top"
@@ -26,6 +26,7 @@
         { title: "Composition Api", to: "/detail/composition-api" },
         { title: "Setup, Ref, Reactive", to: "/detail/setup-ref-reactive" },
         { title: "LifeCycle Hooks", to: "/detail/lifecycle-hooks" },
+        { title: "Teleport", to: "/detail/teleport" },
       ];
 
       return {
