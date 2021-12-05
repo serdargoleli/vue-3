@@ -27,6 +27,7 @@
         { title: "Setup, Ref, Reactive", to: "/detail/setup-ref-reactive" },
         { title: "LifeCycle Hooks", to: "/detail/lifecycle-hooks" },
         { title: "Teleport", to: "/detail/teleport" },
+        { title: "Fragment", to: "/detail/fragment" },
       ];
 
       return {

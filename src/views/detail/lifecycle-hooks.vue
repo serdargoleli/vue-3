@@ -3,6 +3,11 @@
   <p class="text-muted">Vue 3 ile güncellenen LifeCycle Hooks'a geçmeden önce Vue 2'de kullandığımız LifeCycle Hooks'a bakalım.</p>
   <hr />
   <h4 class="text-muted mb-1">Vue 2 lifeCycleHooks</h4>
+  <div class="row">
+    <div class="col-12">
+      <img src="@/assets/img/lifeCycleHooks/lifecycle.png" alt="Lifecycle Hooks">
+    </div>
+  </div>
   <p class="text-muted">
     Oluşturduğumuz Vue.js instance nesnesi çalışırken belirli aşamalardan geçerek işlemleri yerine getirir. İşte bu belirli aşamalarda bazı durumlarda
     bazı spesifik kodları çalıştırma durumunda kalabiliriz. Bu yüzden Vue.js içerisinde (Lifecycle Hooks) Türkçe olarak da “Hayat Döngüsü Olayları”
