@@ -15,6 +15,7 @@ import "@/assets/css/main.css";
 /* Components */
 
 import sources from "./components/sources.vue";
+
 const app = createApp(App);
 app.use(store);
 app.use(router);
