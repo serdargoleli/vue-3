@@ -6,6 +6,7 @@ import LifeCycleHhooks from "../views/detail/lifecycle-hooks.vue";
 import Teleport from "../views/detail/teleport.vue";
 import Fragment from "../views/detail/fragment.vue";
 import FiltersApi from "../views/detail/filters-api.vue";
+import MountApi from "../views/detail/mount-api.vue";
 
 import Post from "../views/post.vue";
 const routes = [
@@ -16,6 +17,7 @@ const routes = [
   { path: "/detail/teleport", name: "teleport", component: Teleport },
   { path: "/detail/fragment", name: "teleport", component: Fragment },
   { path: "/detail/filters-api", name: "filters-api", component: FiltersApi },
+  { path: "/detail/mount-api", name: "mount-api", component: MountApi },
 
   { path: "/post", name: "post", component: Post },
 ];

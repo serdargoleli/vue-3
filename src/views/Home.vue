@@ -23,12 +23,13 @@
     // constructor: ilk render işleminde yüklenen değerler
     setup() {
       const contents = [
-        { title: "Composition Api", to: "/detail/composition-api" },
+        { title: "Composition API", to: "/detail/composition-api" },
         { title: "Setup, Ref, Reactive", to: "/detail/setup-ref-reactive" },
         { title: "LifeCycle Hooks", to: "/detail/lifecycle-hooks" },
         { title: "Teleport", to: "/detail/teleport" },
         { title: "Fragment", to: "/detail/fragment" },
         { title: "Filters API", to: "/detail/filters-api" },
+        { title: "Mount API", to: "/detail/mount-api" },
       ];
 
       return {
