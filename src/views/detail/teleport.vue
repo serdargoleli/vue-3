@@ -4,8 +4,7 @@
     <p>
       Vue 3 ile gelen bir diğer özelliğimiz ise teleport özelliğidir. Vue 3 geliştirme aşamasında ve beta sürümündeyken, teleport portal olarak
       biliniyordu. Teleport kullanımı ile ilgili örnekleri ve neden önemli olduğunu aşağıda örneklerle açıklamaya çalıştım. Örnek sayfayı
-      <router-link to="/post"><i class="bi bi-box-arrow-up-right"></i> görüntüle</router-link> <small>konsolu açmayı unutma :)</small> <br />
-      Örnek kodları <a href="https://github.com/serdargoleli/vue-3" target="_blank">Github</a>'tan inceleyebilirsin.
+      <router-link to="/post"><i class="bi bi-box-arrow-up-right"></i> görüntüle</router-link> <small>konsolu açmayı unutma :)</small>
     </p>
     <hr />
     <p>

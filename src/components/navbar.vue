@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-xl sticky-top navbar-light bg-light">
+  <nav class="navbar navbar-expand-xl sticky-top navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">VUE 3 Yenilikler</a>
       <ul class="navbar-nav ms-auto flex-row">
