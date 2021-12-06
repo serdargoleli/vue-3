@@ -1,8 +1,8 @@
 <template>
   <div class="row">
     <div class="col-12 col-md-6 col-lg-3" v-for="(content, index) in contents" :key="index">
-      <router-link :to="content.to">
-        <div class="card">
+      <router-link :to="content.to" @click="scrollToTop">
+        <div class="card mb-4">
           <img
             src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
             class="card-img-top"
@@ -33,8 +33,13 @@
         { title: "V-model", to: "/detail/v-model" },
       ];
 
+      const scrollToTop = () => {
+        window.scrollTo(0, 0);
+      };
+
       return {
         contents,
+        scrollToTop,
       };
     },
   };

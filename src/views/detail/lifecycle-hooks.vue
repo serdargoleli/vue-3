@@ -5,7 +5,7 @@
   <h4 class="text-muted mb-1">Vue 2 lifeCycleHooks</h4>
   <div class="row">
     <div class="col-12">
-      <img src="@/assets/img/lifeCycleHooks/lifecycle.png" alt="Lifecycle Hooks">
+      <img class="img-fluid" src="@/assets/img/lifeCycleHooks/lifecycle.png" alt="Lifecycle Hooks" />
     </div>
   </div>
   <p class="text-muted">
@@ -30,8 +30,8 @@
   <p class="text-muted mt-4 mb-0">Vue 3'te iki ek izleyici daha geliyor. Bunlar:</p>
   <ul class="list-group list-group-flush">
     <li class="list-group-item text-break text-muted border-bottom-0">
-      <strong class="text-muted">onRenderTracked:</strong> Oluşturma sırasında reaktif bir bağımlılığa ilk erişildiğinde çağrılır.
-      Bu bağımlılık şimdi izlenecek. Bu, hata ayıklama için hangi bağımlılıkların izlendiğini görmek için yararlıdır.
+      <strong class="text-muted">onRenderTracked:</strong> Oluşturma sırasında reaktif bir bağımlılığa ilk erişildiğinde çağrılır. Bu bağımlılık şimdi
+      izlenecek. Bu, hata ayıklama için hangi bağımlılıkların izlendiğini görmek için yararlıdır.
     </li>
     <li class="list-group-item text-break text-muted border-bottom-0">
       <strong class="text-muted">onRenderTriggered:</strong> Yeni bir oluşturma tetiklendiğinde çağrılır ve hangi bağımlılığın bir bileşeni yeniden

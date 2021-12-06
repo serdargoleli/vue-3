@@ -4,3 +4,7 @@ a {
 .list-group-item {
   padding-left: 0;
 }
+
+html {
+  scroll-behavior: auto !important;
+}
