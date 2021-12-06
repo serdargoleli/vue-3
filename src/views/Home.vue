@@ -31,6 +31,7 @@
         { title: "Filters API", to: "/detail/filters-api" },
         { title: "Mount API", to: "/detail/mount-api" },
         { title: "V-model", to: "/detail/v-model" },
+        { title: "Template Directive", to: "/detail/template-directives" },
       ];
 
       const scrollToTop = () => {

@@ -8,6 +8,7 @@ import Fragment from "../views/detail/fragment.vue";
 import FiltersApi from "../views/detail/filters-api.vue";
 import MountApi from "../views/detail/mount-api.vue";
 import VModel from "../views/detail/v-model.vue";
+import TemplateDirectives from "../views/detail/template-directives.vue";
 
 import Post from "../views/post.vue";
 const routes = [
@@ -20,6 +21,7 @@ const routes = [
   { path: "/detail/filters-api", name: "filters-api", component: FiltersApi },
   { path: "/detail/mount-api", name: "mount-api", component: MountApi },
   { path: "/detail/v-model", name: "v-model", component: VModel },
+  { path: "/detail/template-directives", name: "Template Directives", component: TemplateDirectives },
 
   { path: "/post", name: "post", component: Post },
 ];
