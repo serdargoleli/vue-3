@@ -7,6 +7,7 @@ import Teleport from "../views/detail/teleport.vue";
 import Fragment from "../views/detail/fragment.vue";
 import FiltersApi from "../views/detail/filters-api.vue";
 import MountApi from "../views/detail/mount-api.vue";
+import VModel from "../views/detail/v-model.vue";
 
 import Post from "../views/post.vue";
 const routes = [
@@ -15,9 +16,10 @@ const routes = [
   { path: "/detail/setup-ref-reactive", name: "setup-ref-reactive", component: SetupRefReactive },
   { path: "/detail/lifecycle-hooks", name: "lifecycle-hooks", component: LifeCycleHhooks },
   { path: "/detail/teleport", name: "teleport", component: Teleport },
-  { path: "/detail/fragment", name: "teleport", component: Fragment },
+  { path: "/detail/fragment", name: "fragment", component: Fragment },
   { path: "/detail/filters-api", name: "filters-api", component: FiltersApi },
   { path: "/detail/mount-api", name: "mount-api", component: MountApi },
+  { path: "/detail/v-model", name: "v-model", component: VModel },
 
   { path: "/post", name: "post", component: Post },
 ];

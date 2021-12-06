@@ -30,6 +30,7 @@
         { title: "Fragment", to: "/detail/fragment" },
         { title: "Filters API", to: "/detail/filters-api" },
         { title: "Mount API", to: "/detail/mount-api" },
+        { title: "V-model", to: "/detail/v-model" },
       ];
 
       return {
