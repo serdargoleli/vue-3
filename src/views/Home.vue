@@ -32,6 +32,7 @@
         { title: "Mount API", to: "/detail/mount-api" },
         { title: "V-model", to: "/detail/v-model" },
         { title: "Template Directive", to: "/detail/template-directives" },
+        { title: "Next Tick", to: "/detail/next-tick" },
       ];
 
       const scrollToTop = () => {
