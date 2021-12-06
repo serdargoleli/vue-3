@@ -10,6 +10,7 @@ import MountApi from "../views/detail/mount-api.vue";
 import VModel from "../views/detail/v-model.vue";
 import TemplateDirectives from "../views/detail/template-directives.vue";
 import NextTick from "../views/detail/next-tick.vue";
+import Props from "../views/detail/props.vue";
 
 import Post from "../views/post.vue";
 const routes = [
@@ -24,6 +25,7 @@ const routes = [
   { path: "/detail/v-model", name: "v-model", component: VModel },
   { path: "/detail/template-directives", name: "Template Directives", component: TemplateDirectives },
   { path: "/detail/next-tick", name: "Next Tick", component: NextTick },
+  { path: "/detail/props", name: "Props", component: Props },
 
   { path: "/post", name: "post", component: Post },
 ];

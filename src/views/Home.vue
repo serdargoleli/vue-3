@@ -33,6 +33,7 @@
         { title: "V-model", to: "/detail/v-model" },
         { title: "Template Directive", to: "/detail/template-directives" },
         { title: "Next Tick", to: "/detail/next-tick" },
+        { title: "Props", to: "/detail/props" },
       ];
 
       const scrollToTop = () => {
