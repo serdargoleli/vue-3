@@ -4,7 +4,8 @@
     <p class="mb-4">
       <code>Props</code> ana bileşenimizden child (alt) bileşenimize veri göndermek için kullandığımz yapıdır. Props ile gönderdiğimiz veriyi child
       component’te karşılayarak normal data gibi kullanıyoruz. Bu datayı child bileşende değiştirerek parent bileşene göndermek için ise
-      <code>emit</code> yapısını kullanıyoruz.
+      <code>emit</code> yapısını kullanıyoruz. Vue 2'de <code>this.$emit</code> şeklinde kullanılıyordu ancak Vue 3 ile <code>this</code> kullanımdan
+      kalktığı için kullanım şekli değişti.
     </p>
     <hr />
     <h4>Parent (ana) bileşenden, child (alt) bileşene değer gönderme</h4>
